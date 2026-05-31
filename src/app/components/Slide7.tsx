@@ -9,9 +9,6 @@ export default function Slide7() {
           <h1 className="text-4xl mb-2 font-semibold" style={{ fontFamily: 'var(--font-heading)', color: 'var(--s-text-primary)', letterSpacing: '-0.02em' }}>
             Arquitetura em camadas do Sentinella
           </h1>
-          <p className="text-lg" style={{ color: 'var(--s-text-secondary)' }}>
-            Fluxo RAG implementado no repositório develop
-          </p>
         </div>
 
         {/* Layered Architecture Diagram */}
