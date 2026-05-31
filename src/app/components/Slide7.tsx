@@ -194,7 +194,7 @@ export default function Slide7() {
             <div className="text-xs uppercase tracking-wider mb-3 font-mono font-semibold" style={{ color: 'var(--s-text-muted)' }}>
               04. DADOS E INGESTÃO OFFLINE
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
               
               {/* PostgreSQL 16 */}
               <div className="relative rounded-lg p-4 border flex flex-col justify-between h-24 transition-all duration-300 hover:scale-[1.02]" 
@@ -211,6 +211,15 @@ export default function Slide7() {
                 <div>
                   <div className="font-semibold text-sm" style={{ color: 'var(--s-text-primary)' }}>clt_chunks</div>
                   <p className="text-[11px] leading-snug mt-1" style={{ color: 'var(--s-text-secondary)' }}>Texto, metadados e vector(1024).</p>
+                </div>
+              </div>
+
+              {/* Cloudflare R2 */}
+              <div className="relative rounded-lg p-4 border flex flex-col justify-between h-24 transition-all duration-300 hover:scale-[1.02]" 
+                   style={{ background: 'rgba(255, 255, 255, 0.02)', borderColor: 'var(--s-glass-border)' }}>
+                <div>
+                  <div className="font-semibold text-sm" style={{ color: 'var(--s-text-primary)' }}>Cloudflare R2</div>
+                  <p className="text-[11px] leading-snug mt-1" style={{ color: 'var(--s-text-secondary)' }}>PDFs originais de leis e julgados.</p>
                 </div>
               </div>
 

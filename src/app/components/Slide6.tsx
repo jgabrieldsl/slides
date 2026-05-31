@@ -1,4 +1,4 @@
-import { Code2, Server, Radio, Database as DatabaseIcon, Cpu, Shield } from 'lucide-react';
+import { Code2, Server, Radio, Database as DatabaseIcon, Cpu, Shield, HardDrive } from 'lucide-react';
 
 export default function Slide6() {
   return (
@@ -55,6 +55,14 @@ export default function Slide6() {
               <h3 className="text-2xl" style={{ fontFamily: 'var(--font-heading)' }}>RAG Engine</h3>
             </div>
             <p style={{ color: 'var(--s-text-muted)' }}>Guardrails e prompts de segurança jurídica</p>
+          </div>
+
+          <div className="rounded-2xl p-8 border transition-all hover:scale-[1.02] animate-fade-in-up animation-delay-600 col-span-1 md:col-span-2 lg:col-span-1 lg:col-start-2" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <HardDrive className="w-10 h-10" style={{ color: '#38bdf8' }} />
+              <h3 className="text-2xl" style={{ fontFamily: 'var(--font-heading)' }}>Cloudflare R2</h3>
+            </div>
+            <p style={{ color: 'var(--s-text-muted)' }}>Armazenamento de objetos (Object Storage) para PDFs e documentos originais</p>
           </div>
         </div>
 
