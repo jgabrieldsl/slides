@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './ImageWithFallback';
-import { Target, Users } from 'lucide-react';
+import { Target, Scale, ClipboardCheck } from 'lucide-react';
 
 export default function Slide3() {
   return (
@@ -42,14 +42,23 @@ export default function Slide3() {
 
               <div className="rounded-xl p-6 border-l-4 border" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)', borderLeftColor: 'var(--s-success)' }}>
                 <div className="flex items-center gap-3">
-                  <Users className="w-8 h-8" style={{ color: 'var(--s-success)' }} />
+                  <Scale className="w-8 h-8" style={{ color: 'var(--s-success)' }} />
                   <div>
-                    <div className="font-semibold text-lg" style={{ color: 'var(--s-text-primary)' }}>Acesso à Justiça</div>
-                    <p style={{ color: 'var(--s-text-secondary)' }}>Democratização do conhecimento jurídico</p>
+                    <div className="font-semibold text-lg" style={{ color: 'var(--s-text-primary)' }}>Segurança Jurídica</div>
+                    <p style={{ color: 'var(--s-text-secondary)' }}>Zero alucinações, fontes sempre verificáveis</p>
                   </div>
                 </div>
               </div>
 
+              <div className="rounded-xl p-6 border-l-4 border" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)', borderLeftColor: '#a78bfa' }}>
+                <div className="flex items-center gap-3">
+                  <ClipboardCheck className="w-8 h-8" style={{ color: '#a78bfa' }} />
+                  <div>
+                    <div className="font-semibold text-lg" style={{ color: 'var(--s-text-primary)' }}>Conformidade Trabalhista</div>
+                    <p style={{ color: 'var(--s-text-secondary)' }}>Decisões de RH baseadas na CLT real</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
