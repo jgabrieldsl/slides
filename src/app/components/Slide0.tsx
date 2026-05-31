@@ -60,7 +60,7 @@ export default function Slide0() {
         {/* Description */}
         <div className="rounded-2xl p-8 border mt-4" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)' }}>
           <p className="text-xl md:text-2xl leading-relaxed font-light" style={{ color: 'var(--s-text-secondary)' }}>
-            Um assistente virtual especializado em <span className="font-semibold text-[var(--s-text-primary)]">CLT</span> e <span className="font-semibold text-[var(--s-text-primary)]">TST</span> — 
+            Um assistente virtual especializado em <span className="font-semibold text-[var(--s-text-primary)]">CLT</span> — 
             respostas fundamentadas, <span className="font-semibold text-[var(--s-text-primary)]">sem alucinações</span> e com 
             <span className="font-semibold text-[var(--s-text-primary)]"> rastreabilidade jurídica total</span>.
           </p>

@@ -17,7 +17,7 @@ export default function Slide4() {
         <div className="rounded-2xl p-12 border animate-fade-in-up animation-delay-200" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)' }}>
           <p className="text-2xl leading-relaxed mb-8" style={{ color: 'var(--s-text-primary)', fontWeight: 300 }}>
             A primeira plataforma de consulta trabalhista com <span className="font-semibold">RAG estrito</span>,
-            que responde com base nos textos reais da CLT, Súmulas e OJs do TST — sem alucinações.
+            que responde com base no texto real da CLT — sem alucinações.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">

@@ -13,8 +13,8 @@ export default function Slide2() {
             <div className="rounded-2xl p-10 border" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)' }}>
               <p className="text-2xl leading-relaxed" style={{ color: 'var(--s-text-primary)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
                 IAs generativas genéricas <span className="font-semibold">alucinam artigos</span>,
-                <span className="font-semibold"> inventam súmulas</span> e
-                <span className="font-semibold"> misturam jurisdições</span> — em termos jurídicos,
+                <span className="font-semibold"> inventam regras</span> e
+                <span className="font-semibold"> misturam conceitos</span> — em termos jurídicos,
                 isso gera passivo de risco inaceitável para RH, advogados e colaboradores.
               </p>
             </div>

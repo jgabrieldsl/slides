@@ -29,8 +29,8 @@ export default function Slide1() {
             <div className="flex justify-center mb-4">
               <FileText className="w-12 h-12 opacity-80" />
             </div>
-            <div className="text-4xl mb-3 text-center" style={{ fontFamily: 'var(--font-heading)' }}>Súmulas e OJs</div>
-            <p className="text-center" style={{ color: 'var(--s-text-secondary)' }}>do TST que mudam constantemente geram risco jurídico diário</p>
+            <div className="text-4xl mb-3 text-center" style={{ fontFamily: 'var(--font-heading)' }}>900+ Artigos</div>
+            <p className="text-center" style={{ color: 'var(--s-text-secondary)' }}>na CLT com regras complexas que geram dúvidas e risco jurídico diário</p>
           </div>
         </div>
 

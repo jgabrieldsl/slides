@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './ImageWithFallback';
-import { Target, Users, TrendingDown } from 'lucide-react';
+import { Target, Users } from 'lucide-react';
 
 export default function Slide3() {
   return (
@@ -50,15 +50,6 @@ export default function Slide3() {
                 </div>
               </div>
 
-              <div className="rounded-xl p-6 border-l-4 border" style={{ background: 'var(--s-glass)', borderColor: 'var(--s-glass-border)', borderLeftColor: '#a78bfa' }}>
-                <div className="flex items-center gap-3">
-                  <TrendingDown className="w-8 h-8" style={{ color: '#a78bfa' }} />
-                  <div>
-                    <div className="font-semibold text-lg" style={{ color: 'var(--s-text-primary)' }}>Redução de Desigualdades</div>
-                    <p style={{ color: 'var(--s-text-secondary)' }}>Informação jurídica para todos</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

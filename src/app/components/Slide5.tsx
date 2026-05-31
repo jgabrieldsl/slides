@@ -26,7 +26,7 @@ export default function Slide5() {
               <Database className="w-12 h-12" style={{ color: 'var(--s-text-primary)' }} />
             </div>
             <h3 className="text-xl mb-2 text-center" style={{ fontFamily: 'var(--font-heading)' }}>2. RAG busca</h3>
-            <p className="text-center" style={{ color: 'var(--s-text-muted)' }}>Artigos reais da CLT/TST</p>
+            <p className="text-center" style={{ color: 'var(--s-text-muted)' }}>Artigos reais da CLT</p>
           </div>
 
           <div className="flex-none px-4">

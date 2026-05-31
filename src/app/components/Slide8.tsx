@@ -37,7 +37,7 @@ export default function Slide8() {
             </div>
             <h3 className="text-2xl mb-4 text-center" style={{ fontFamily: 'var(--font-heading)' }}>RAG</h3>
             <p className="text-center leading-relaxed" style={{ color: 'var(--s-text-secondary)' }}>
-              Recupera os artigos e súmulas exatos do banco vetorial
+              Recupera os artigos exatos da CLT do banco vetorial
             </p>
             <div className="mt-6 rounded-lg p-4" style={{ background: 'var(--s-surface)' }}>
               <p className="text-sm italic" style={{ color: 'var(--s-text-muted)' }}>
